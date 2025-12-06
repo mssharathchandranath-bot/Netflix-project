@@ -1,0 +1,79 @@
+.background{
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+      
+}
+
+.movie{
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+
+.poster {
+    height: 280px;
+   
+}
+
+.title{
+    color: black;
+    padding: 25px;
+   
+}
+
+.icon{
+    height: 40px;
+    display: flex;
+  gap: 20px;
+    
+}
+.side{
+    padding: 40px;
+}
+
+.bison{
+    font-size: 55px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+
+   
+}
+
+.cont{
+    font-size: 20px;
+}
+
+.now{
+    display: flex;
+    gap: 30px;
+   
+}
+
+.logopic{
+    padding-top: 47px;
+    height: 40px;
+    padding-left: 30px;
+}
+
+.src{
+    display: flex;
+}
+
+
+

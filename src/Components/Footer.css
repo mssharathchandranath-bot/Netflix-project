@@ -1,0 +1,23 @@
+.foot{
+    height: 30px;
+    color: white;
+}
+
+.footback{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+
+}
+
+.font{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.below{
+    background-color: black;
+    padding-top: 20px;
+}
