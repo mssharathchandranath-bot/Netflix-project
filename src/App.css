@@ -54,12 +54,15 @@
    
 }
 .pic{
-    height: 70px;
+    height: 65px;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 .pi{
     height: 40px;
     width: 40px;
     padding: 20px;
+    
     
  
 

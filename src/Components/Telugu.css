@@ -1,0 +1,21 @@
+.telugu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    gap: 30px; 
+    margin-top: 10px; 
+}
+
+.telugubackground{
+    background-image: url("https://timesofindia.indiatimes.com/thumb/msid-120781165,width-1280,height-720,resizemode-4/120781165.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+
+    
+}

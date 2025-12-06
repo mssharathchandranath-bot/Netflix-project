@@ -2,7 +2,7 @@
     background-image: url("../assets/background.png");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1320px;
+    width: auto;
     height: 600px;
     color: white;
     display: flex;
@@ -13,12 +13,14 @@
 .movie{
     display: flex;
     justify-content: space-evenly;
+    
    
 
 }
 
 .poster {
     height: 280px;
+    width: 200px;
    
 }
 

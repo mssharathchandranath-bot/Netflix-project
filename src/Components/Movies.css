@@ -1,0 +1,10 @@
+.moviesbackground{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/504/664/979/spider-man-movies-the-amazing-spider-man-superhero-wallpaper-preview.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    color: white;
+    display: flex;
+    align-items: center;
+}

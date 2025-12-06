@@ -1,0 +1,35 @@
+.movie{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px; 
+    
+}
+
+.language{
+    padding: 80px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    background-color: rgb(241, 203, 133);
+    border-radius: 30px;
+    box-shadow: 20px 10px 10px grey;
+   
+}
+
+.language:hover{
+    background-color: rgb(223, 169, 61);
+    color: black;
+    cursor: pointer;
+
+}
+
+.back{
+    background-color: white;
+    color: black;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+   
+}
+
+

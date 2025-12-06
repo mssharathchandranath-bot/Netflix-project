@@ -15,9 +15,11 @@
     color: white;
     display: flex;
     justify-content: space-evenly;
+
 }
 
 .below{
     background-color: black;
     padding-top: 20px;
+    margin-top: 20px;
 }

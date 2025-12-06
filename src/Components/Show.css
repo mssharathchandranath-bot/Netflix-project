@@ -1,4 +1,21 @@
 .show{
-    color: white;
+    color: black;
     padding: 20px;
+    font-size: 50px;
+    
+}
+
+.logopic{
+    height: 80px;
+}
+
+.showbackground{
+    background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202506/mandala-murders-vaani-kapoor-plays-detective-in-crime-thriller-on-secret-societies-305242928-16x9_0.jpeg?VersionId=si0baaJ7_H9aDsBo0pAZLJ7XCaWuGd9.");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    color: white;
+    display: flex;
+    align-items: center;
 }

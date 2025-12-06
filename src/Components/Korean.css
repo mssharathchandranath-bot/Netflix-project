@@ -1,0 +1,10 @@
+.koreanbackground{
+    background-image: url("https://wallpapercave.com/wp/wp15827311.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    color: white;
+    display: flex;
+    align-items: center;
+}

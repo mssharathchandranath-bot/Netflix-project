@@ -1,0 +1,11 @@
+.englishbackground{
+    background-image: url("https://4kwallpapers.com/images/wallpapers/fast-furious-9-f9-vin-diesel-jordana-brewster-ludacris-3840x2160-6301.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
