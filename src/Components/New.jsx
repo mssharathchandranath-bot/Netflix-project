@@ -8,7 +8,7 @@ export default function New() {
     <div>
       <div className='src'>
         <img className='logopic' src={logo} alt='logopic' />
-        <h1 className='tag'>New & Popular</h1>
+        <h1 className='tag'>New & Popular 🐻</h1>
       </div>
       <div>
 

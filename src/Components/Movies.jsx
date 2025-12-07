@@ -32,7 +32,7 @@ export default function Movies() {
 
       <div className='src'>
         <img className='logopic' src={logo} alt='logopic' />
-        <h1 className='tag'>Movies</h1>
+        <h1 className='tag'>Movies 📽️</h1>
       </div>
 
       <div>

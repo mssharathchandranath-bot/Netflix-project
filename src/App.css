@@ -51,11 +51,11 @@
     font-size: 30px;
    position: sticky;
     top: 0;
+    padding-top: 30px;
    
 }
 .pic{
     height: 65px;
-    padding-top: 5px;
     padding-left: 10px;
 }
 .pi{
@@ -64,18 +64,22 @@
     padding: 20px;
     
     
- 
-
 }
 
 .header li{
       color: white;
       text-decoration: none;
-  
-
+      
 }
 
 .main {
   background-color: wheat;
   
 }
+
+.link {
+  text-decoration: none;
+  
+}
+
+

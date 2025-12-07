@@ -30,7 +30,7 @@ export default function Shows() {
       </div>
       <div className='src'>
         <img className='logopic' src={logo} alt='logopic' />
-        <h1 className='tag'>Shows</h1>
+        <h1 className='tag'>Shows 🎞️</h1>
       </div>
 
       <div className='movie'>

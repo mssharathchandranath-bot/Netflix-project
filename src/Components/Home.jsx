@@ -37,7 +37,7 @@ export default function Home() {
       <div>
         <div className='src'>
           <img className='logopic' src={logo} alt='logopic' />
-          <h1 className='title'>Indian Action</h1>
+          <h1 className='title'>Indian Action🦁</h1>
         </div>
 
 
@@ -72,7 +72,7 @@ export default function Home() {
       <div>
         <div className='src'>
           <img className='logopic' src={logo} alt='logopic' />
-          <h1 className='title'>Only on Sharath Cinemas</h1>
+          <h1 className='title'>Only on Sharath Cinemas 🎥</h1>
         </div>
         <div className='movie' >
 
@@ -100,7 +100,7 @@ export default function Home() {
         <div>
           <div className='src'>
             <img className='logopic' src={logo} alt='logopic' />
-            <h1 className='title'>Suspenceful Tv Thrillers</h1>
+            <h1 className='title'>Suspenceful Tv Thrillers😰</h1>
           </div>
 
           <div className='movie'>
@@ -134,7 +134,7 @@ export default function Home() {
         <div>
           <div className='src'>
             <img className='logopic' src={logo} alt='logopic' />
-            <h1 className='title'>New on Sharath Cinemas </h1>
+            <h1 className='title'>New on Sharath Cinemas 🎥</h1>
           </div>
 
 
