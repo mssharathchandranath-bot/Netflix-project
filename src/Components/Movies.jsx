@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from "../assets/logo.png"
 import "./Movies.css"
+import Nav from './Nav'
+import Footer from './Footer'
 
 
 export default function Movies() {
@@ -10,6 +12,7 @@ export default function Movies() {
   }
   return (
     <>
+    <Nav/>
       <div className='moviesbackground'>
         <div className='side'>
           <h1 className='bison'>The Amazing <br />Spider-man 2</h1>
@@ -93,6 +96,7 @@ export default function Movies() {
 
 
       </div>
+      <Footer/>
 
     </>
 

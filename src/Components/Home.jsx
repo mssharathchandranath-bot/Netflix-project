@@ -2,6 +2,8 @@ import React from 'react'
 import "./Home.css"
 import { Link } from 'react-router-dom'
 import logo from "../assets/logo.png"
+import Nav from './Nav'
+import Footer from './Footer'
 
 
 export default function Home() {
@@ -12,6 +14,7 @@ export default function Home() {
 
   return (
     <>
+      <Nav/>
       <div>
         <div className='background'>
           <div className='side'>
@@ -170,6 +173,7 @@ export default function Home() {
 
 
       </div>
+      <Footer/>
 
     </>
   )

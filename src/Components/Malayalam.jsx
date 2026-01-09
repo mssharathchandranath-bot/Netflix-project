@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Malayalam.css"
+import Nav from './Nav'
+import Footer from './Footer'
 
 export default function Malayalam() {
     function info() {
@@ -8,6 +10,7 @@ export default function Malayalam() {
     }
     return (
         <>
+        <Nav/>
             <div className='malayalambackground'>
                 <div className='side'>
                     <Link to='/Browse by Language'>
@@ -77,6 +80,7 @@ export default function Malayalam() {
 
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

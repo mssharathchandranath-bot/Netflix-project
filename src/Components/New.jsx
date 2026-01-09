@@ -2,10 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from "../assets/logo.png"
 import "./New.css"
+import Nav from './Nav'
+import Footer from './Footer'
 
 export default function New() {
   return (
     <div>
+      <Nav/>
       <div className='src'>
         <img className='logopic' src={logo} alt='logopic' />
         <h1 className='tag'>New & Popular 🐻</h1>
@@ -71,6 +74,7 @@ export default function New() {
 
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

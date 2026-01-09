@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Korean.css"
+import Nav from './Nav'
+import Footer from './Footer'
 
 export default function Korean() {
     function info() {
@@ -8,6 +10,7 @@ export default function Korean() {
     }
     return (
         <>
+        <Nav/>
             <div className='koreanbackground'>
                 <div className='side'>
                     <Link to='/Browse by Language'>
@@ -70,6 +73,7 @@ export default function Korean() {
                 </div>
 
             </div>
+            <Footer/>
         </>
     )
 }

@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Browse.css"
+import Nav from './Nav.jsx'
+import Footer from './Footer.jsx'
 
 
 export default function Browse() {
     return (
         <>
-
+            <Nav/>
             <div className='movie'>
                 <Link to="/Telugu">
                     <div className='language'>
@@ -37,6 +39,7 @@ export default function Browse() {
 
 
             </div>
+             <Footer />
 
         </>
     )

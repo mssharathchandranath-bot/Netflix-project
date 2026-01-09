@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import "./Telugu.css"
 import { Link } from 'react-router-dom'
+import Nav from './Nav'
+import Footer from './Footer'
 
 export default function Telugu() {
 
@@ -12,6 +14,7 @@ export default function Telugu() {
     return (
 
         <>
+        <Nav/>
             <div className='telugubackground'>
                 <div className='side'>
                     <Link to='/Browse by Language'>
@@ -87,7 +90,7 @@ export default function Telugu() {
 
 
             </div>
-
+            <Footer/>
 
         </>
     )

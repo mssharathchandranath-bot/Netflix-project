@@ -2,10 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Mylist.css"
 import logo from "../assets/logo.png"
+import Nav from './Nav'
+import Footer from './Footer'
 
 export default function Mylist() {
   return (
     <div>
+      <Nav/>
       <div className='src'>
         <img className='logopic' src={logo} alt='logopic' />
         <h1 className='tag'>Mylist</h1>
@@ -27,7 +30,7 @@ export default function Mylist() {
 
       </div>
 
-
+      <Footer/>
 
     </div>
   )

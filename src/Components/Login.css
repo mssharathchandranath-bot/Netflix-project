@@ -1,0 +1,26 @@
+.body{
+    text-align: center;
+    border: 2px solid black ;
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 400px;
+    padding: 10px;
+    height: 580px ;
+
+}
+.email{
+    margin: 5px;
+    
+}
+
+.Loginn{
+    width: 90px;
+
+}
+
+
+
+

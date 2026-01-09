@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Show.css"
 import logo from "../assets/logo.png"
+import Nav from './Nav'
+import Footer from './Footer'
 
 export default function Shows() {
   function info() {
@@ -9,6 +11,7 @@ export default function Shows() {
   }
   return (
     <>
+    <Nav/>
       <div className='showbackground'>
         <div className='side'>
           <h1 className='bison'>Mandala Murders</h1>
@@ -86,6 +89,7 @@ export default function Shows() {
 
       </div>
 
+      <Footer/>
 
     </>
   )
